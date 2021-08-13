@@ -24,7 +24,7 @@
     "nightwatchjs",
     "nightwatch"
   ],
-  "author": "profplum700 <henry.pitman@squaredup.com> (https://github.com/orzilca)",
+  "author": "profplum700 <henry.pitman@squaredup.com> (https://github.com/squaredup)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/squaredup/nightwatch-xhr/issues"
