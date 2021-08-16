@@ -53,8 +53,5 @@
   },
   "directories": {
     "test": "test"
-  },
-  "dependencies": {
-    "nightwatch-xhr": "^0.4.7"
   }
 }
