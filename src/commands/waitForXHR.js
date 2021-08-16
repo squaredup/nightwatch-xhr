@@ -49,7 +49,7 @@ WaitForXHR.prototype.command = function (
             if (matchingXhrs)
                 command.callback(matchingXhrs);
             else
-                api.assert.ok(false, 'Nothing heard', 'XHR Request', `No XHR opened with pattern ${urlPattern} !`, `No XHR found for pattern: "${urlPattern}"`);
+                api.assert.ok(false, `No XHR found for pattern: "${urlPattern}" OR Timed out`);
             command.emit('complete');
         });
     }, delay);
