@@ -71,9 +71,6 @@ WaitForXHR.prototype.command = function (
     this.timeout = setTimeout(function () {
         console.log(util.format('[WaitForXHR TimeOut] %s ms, no XHR request for pattern : "%s"', timeout, urlPattern));
         clearInterval(command.pollingInterval);
-        // callback(command.client.api, new Error());
-        // his.fail({value:false}, 'not found', this.expectedValue, defaultMsg);
-        api.assert.ok(false, `No XHR found for pattern: "${urlPattern}" OR Timed out`);
         command.emit('complete');
     }, timeout);
 
